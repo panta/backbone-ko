@@ -1,0 +1,43 @@
+{ 
+    "name": "backbone-ko"
+  , "version": "0.0.1"
+  , "description": "Knockout integration with Backbone.js"
+  , "main" : "./dist/backbone-ko.js"
+  , "scripts": {
+    "test": "cake test"
+  }
+  , "author": {
+      "name":  "Marco Pantaleoni"
+    , "email": "marco.pantaleoni@gmail.com"
+    , "url":   "http://www.github.com/panta"
+  }
+  , "keywords": ["library", "knockout", "backbone", "model-binding", "model-vide-binding"]
+  , "licenses":
+    [{ 
+      "type": "MIT", 
+      "url": "https://raw.github.com/panta/backbone-ko/master/LICENSE"
+    }]
+  , "homepage": "http://github.com/panta/backbone-ko"
+  , "repository": { 
+    "type" : "git", 
+    "url": "http://github.com/panta/backbone-ko.git"
+  }
+  , "bugs": {
+    "url" : "http://github.com/panta/backbone-ko/issues"
+  }
+  , "dependencies": {
+  }
+  , "devDependencies" : {
+      "coffee-script" : "1.6.x"
+    , "glob": "3.1.12"
+    , "mkdirp": "0.3.3"
+    , "findit": "0.1.2"
+    , "exec-sync": "0.1.4"
+    , "async": "0.1.22"
+    , "uglify-js": "1.3.3"
+    , "underscore": "1.4.4"
+    , "mocha" : "1.9.0"
+    , "chai" : "1.5.0"
+    , "zombie" : "1.4.1"
+  }
+}

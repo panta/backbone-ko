@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic test page</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.2.1/knockout-min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/knockout.mapping/2.3.5/knockout.mapping.js"></script>
+    <script type="text/javascript" src="file://{{ backbone_ko }}"></script>
+    <script type="text/javascript" src="file://{{ test_js }}"></script>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Backbone-KO test page</h1>
+
+      <form id="person">
+        <p>First name: <input name="first_name" data-bind="value: first_name" /></p>
+        <p>Last name: <input name="last_name" data-bind="value: last_name" /></p>
+        <p>E-mail: <input name="email" data-bind="value: email" /></p>
+        <p>Age: <input name="age" data-bind="value: age" /></p>
+      </form>
+    </div>
+  </body>
+</html>
