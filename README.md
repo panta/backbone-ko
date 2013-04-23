@@ -10,7 +10,16 @@ It is meant to be a simpler and lightweight alternative to [Knockback][]. For co
 
 Just copy the library from the `dist` folder to your javascript assets directory and include it using a script tag:
 
->  <script src="backbone-ko.js"></script>
+```html
+  <script src="backbone-ko.js"></script>
+```
+
+Using [Bower][]:
+
+```bash
+npm install -g bower
+bower install backbone-ko
+```
 
 ### Usage ###
 
@@ -49,7 +58,7 @@ Backbone-KO is © 2013 Marco Pantaleoni, released under the MIT licence. Use it,
 [Backbone]: http://backbonejs.org
 [Knockback]: http://kmalakoff.github.io/knockback
 [Backbone-KO]: http://github.com/panta/backbone-ko
-[bower]: http://bower.io
+[Bower]: http://bower.io
 [mocha]: http://visionmedia.github.io/mocha
 [CoffeeScript]: http://jashkenas.github.com/coffee-script/
 [Node.js]: http://nodejs.org/

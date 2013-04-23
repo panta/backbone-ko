@@ -1,6 +1,6 @@
 {
   "name": "backbone-ko",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/backbone-ko.js",
   "ignore": [
       "**/.*"
@@ -11,5 +11,10 @@
     , "build"
     , "Cakefile"
     , "env.sh"
+  ],
+  "dependencies": [
+      "backbone"
+    , "knockout"
+    , "knockout-mapping"
   ]
 }
