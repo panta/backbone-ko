@@ -12,9 +12,9 @@
     , "Cakefile"
     , "env.sh"
   ],
-  "dependencies": [
-      "backbone"
-    , "knockout"
-    , "knockout-mapping"
-  ]
+  "dependencies": {
+      "backbone" : "1.0.0"
+    , "knockout" : "2.2.1"
+    , "knockout-mapping" : "2.4.1"
+  }
 }
