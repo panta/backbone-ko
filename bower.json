@@ -1,0 +1,15 @@
+{
+  "name": "backbone-ko",
+  "version": "0.0.1",
+  "main": "dist/backbone-ko.js",
+  "ignore": [
+      "**/.*"
+    , "node_modules"
+    , "components"
+    , "src"
+    , "test"
+    , "build"
+    , "Cakefile"
+    , "env.sh"
+  ]
+}
