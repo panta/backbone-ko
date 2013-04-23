@@ -11,7 +11,7 @@
     , "email": "marco.pantaleoni@gmail.com"
     , "url":   "http://www.github.com/panta"
   }
-  , "keywords": ["library", "knockout", "backbone", "model-binding", "model-vide-binding"]
+  , "keywords": ["library", "knockout", "backbone", "model-binding", "model-view-binding"]
   , "licenses":
     [{ 
       "type": "MIT", 
