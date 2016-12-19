@@ -78,7 +78,7 @@ Backbone-KO is © 2013 Marco Pantaleoni, released under the MIT licence. Use it,
 [Knockback]: http://kmalakoff.github.io/knockback
 [Backbone-KO]: http://github.com/panta/backbone-ko
 [Bower]: http://bower.io
-[mocha]: http://visionmedia.github.io/mocha
+[mocha]: http://mochajs.org/
 [zombie]: http://zombie.labnotes.org
 [CoffeeScript]: http://jashkenas.github.com/coffee-script/
 [Node.js]: http://nodejs.org/
