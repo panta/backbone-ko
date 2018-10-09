@@ -82,4 +82,4 @@ Backbone-KO is © 2013 Marco Pantaleoni, released under the MIT licence. Use it,
 [zombie]: http://zombie.labnotes.org
 [CoffeeScript]: http://jashkenas.github.com/coffee-script/
 [Node.js]: http://nodejs.org/
-[Jasmine]: http://pivotal.github.com/jasmine/
+[Jasmine]: https://jasmine.github.io/
